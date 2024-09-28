@@ -77,7 +77,7 @@ def process_command(command):
         completion = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[
-                {"role": "system", "content": "You are a Personal Assistant of a Boy named Harshil."},
+                {"role": "system", "content": "You are a Helpfull Personal Assistant for Desktop Users and you will Help desktop users solving their tasks."},
                 {
                     "role": "user",
                     "content": command
